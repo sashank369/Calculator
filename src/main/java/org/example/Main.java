@@ -47,7 +47,7 @@ public class Main {
                     result = divide(num1, num2);
                     break;
                 default:
-                    System.out.println("Invalid choice. Please select a valid operation.");
+                    System.out.println("Invalid choice. Please give a valid operation.");
             }
 
             System.out.println("Result: " + result);
@@ -64,7 +64,7 @@ public class Main {
     }
 
     public static double subtract(double a, double b) {
-        logger.info("Sudtraction Executed ");
+        logger.info("Subtraction Executed ");
         return a - b;
     }
 
@@ -75,7 +75,7 @@ public class Main {
 
     public static double divide(double a, double b) {
         if (b == 0) {
-            System.out.println("Error: Division by zero is not allowed");
+            System.out.println("Division by zero is not allowed");
             return Double.NaN;
         }
         logger.info("Division Executed ");

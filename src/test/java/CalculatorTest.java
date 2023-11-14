@@ -56,7 +56,7 @@ public class CalculatorTest {
     public void test_multiply_negative() {
         double a = 3;
         double b = 2;
-        double expectedResult = 5;
+        double expectedResult = 0;
         Assert.assertNotEquals(expectedResult, calculator.multiply(a, b), 0.001);
     }
 
