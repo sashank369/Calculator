@@ -59,14 +59,17 @@ public class Main {
     }
 
     public static double add(double a, double b) {
+        logger.info("Addition Executed ");
         return a + b;
     }
 
     public static double subtract(double a, double b) {
+        logger.info("Sudtraction Executed ");
         return a - b;
     }
 
     public static double multiply(double a, double b) {
+        logger.info("Multiplication Executed ");
         return a * b;
     }
 
@@ -75,6 +78,7 @@ public class Main {
             System.out.println("Error: Division by zero is not allowed");
             return Double.NaN;
         }
+        logger.info("Division Executed ");
         return a / b;
     }
 }
