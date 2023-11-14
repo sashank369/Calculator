@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         logger.info("Execution Started"); 
-        
+         
         while (true) {
             System.out.println("Choose an operation: ");
             System.out.println("1. Addition (+)");
